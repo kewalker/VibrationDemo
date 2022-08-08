@@ -27,7 +27,7 @@ namespace VibrationDemo.Droid
                     viber.Vibrate(vibe);
                     break;
                 case "medium":
-                    vibe = VibrationEffect.CreateOneShot(150, 150);
+                    vibe = VibrationEffect.CreateOneShot(125, 125);
                     viber.Vibrate(vibe);
                     break;
                 case "heavy":
@@ -35,15 +35,15 @@ namespace VibrationDemo.Droid
                     viber.Vibrate(vibe);
                     break;
                 case "soft":
-                    vibe = VibrationEffect.CreateOneShot(50, 50);
+                    vibe = VibrationEffect.CreateOneShot(25, 50);
                     viber.Vibrate(vibe);
                     break;
                 case "rigid":
-                    vibe = VibrationEffect.CreateOneShot(50, 250);
+                    vibe = VibrationEffect.CreateOneShot(25, 250);
                     viber.Vibrate(vibe);
                     break;
                 case "success":
-                    vibe = VibrationEffect.CreateWaveform(new long[] { 0, 50, 150, 100 }, new int[] { 0, 100, 0, 255 }, -1);
+                    vibe = VibrationEffect.CreateWaveform(new long[] { 0, 50, 150, 100 }, new int[] { 0, 100, 0, 200 }, -1);
                     viber.Vibrate(vibe);
                     break;
                 case "warning":
@@ -55,7 +55,7 @@ namespace VibrationDemo.Droid
                     viber.Vibrate(vibe);
                     break;
                 case "feel":
-                    vibe = VibrationEffect.CreateOneShot(50, 50);
+                    vibe = VibrationEffect.CreateOneShot(25, 25);
                     viber.Vibrate(vibe);
                     break;
             }
