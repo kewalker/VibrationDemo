@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VibrationDemo.MainPage">
+
+    <StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Label HeightRequest="200" HorizontalOptions="Center" Text="Header"/>
+                <Button Text="Light Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="light"/>
+                <Button Text="Medium Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="medium"/>
+                <Button Text="Heavy Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="heavy"/>
+                <Button Text="Soft Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="soft"/>
+                <Button Text="Rigid Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="rigid"/>
+                <Button Text="Success Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="success"/>
+                <Button Text="Warning Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="warning"/>
+                <Button Text="Error Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="error"/>
+                <Button Text="Feel Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="feel"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>
