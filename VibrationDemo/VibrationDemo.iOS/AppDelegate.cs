@@ -24,17 +24,6 @@ namespace VibrationDemo.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
-            //var feedbackGenerator = new UIImpactFeedbackGenerator(UIImpactFeedbackStyle.Heavy);
-            //feedbackGenerator.Prepare();
-            //feedbackGenerator.ImpactOccurred();
-
-            //Thread.Sleep(500);
-
-            //var notificationFeedback = new UINotificationFeedbackGenerator();
-            //notificationFeedback.Prepare();
-            //notificationFeedback.NotificationOccurred(UINotificationFeedbackType.Success);
-
             return base.FinishedLaunching(app, options);
         }
     }

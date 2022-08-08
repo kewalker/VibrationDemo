@@ -24,27 +24,22 @@ namespace VibrationDemo.Droid
             {
                 case "light":
                     vibe = VibrationEffect.CreateOneShot(50, 50);
-                    //vibe = VibrationEffect.CreatePredefined(VibrationEffect.EffectTick);
                     viber.Vibrate(vibe);
                     break;
                 case "medium":
                     vibe = VibrationEffect.CreateOneShot(150, 150);
-                    //vibe = VibrationEffect.CreatePredefined(VibrationEffect.EffectClick);
                     viber.Vibrate(vibe);
                     break;
                 case "heavy":
                     vibe = VibrationEffect.CreateOneShot(255, 255);
-                    //vibe = VibrationEffect.CreatePredefined(VibrationEffect.EffectHeavyClick);
                     viber.Vibrate(vibe);
                     break;
                 case "soft":
-                    //vibe = VibrationEffect.CreateWaveform(new long[] {0,10,1000,10},-1);
                     vibe = VibrationEffect.CreateOneShot(50, 50);
                     viber.Vibrate(vibe);
                     break;
                 case "rigid":
                     vibe = VibrationEffect.CreateOneShot(50, 250);
-                    //vibe = VibrationEffect.CreatePredefined(VibrationEffect.EffectHeavyClick);
                     viber.Vibrate(vibe);
                     break;
                 case "success":
@@ -61,19 +56,9 @@ namespace VibrationDemo.Droid
                     break;
                 case "feel":
                     vibe = VibrationEffect.CreateOneShot(50, 50);
-                    //vibe = VibrationEffect.CreatePredefined(VibrationEffect.EffectTick);
                     viber.Vibrate(vibe);
                     break;
-
             }
-
-            //Vibrator viber = (Vibrator) GetSystemService(ApplicationContext.Vib)
-            //Vibrator viber = new Vibrator();
-
-
-
-            //VibrationEffect.CreatePredefined(VibrationEffect.)
-            //viber.Vibrate(VibrationEffect.CreateOneShot(10000, 255));
         }
     }
 }

@@ -22,17 +22,8 @@ namespace VibrationDemo.Droid
             LoadApplication(new App());
 
             MyAppContext = ApplicationContext;
-
-            //Vibrator viber = (Vibrator) GetSystemService(ApplicationContext.Vib)
-            //Vibrator viber = new Vibrator();
-            //var viber = Vibrator.FromContext(ApplicationContext);
-            //var vibe = VibrationEffect.CreatePredefined(VibrationEffect.EffectHeavyClick);
-            //viber.Vibrate(vibe);
-
-            ////VibrationEffect.CreatePredefined(VibrationEffect.)
-            //viber.Vibrate(VibrationEffect.CreateOneShot(10000, 255));
-
         }
+
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
