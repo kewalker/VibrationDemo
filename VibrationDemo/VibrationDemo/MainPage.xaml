@@ -16,6 +16,7 @@
                 <Button Text="Warning Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="warning"/>
                 <Button Text="Error Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="error"/>
                 <Button Text="Feel Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="feel"/>
+                <Button Text="SOS Vibration" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" BindingContext="sos"/>
             </StackLayout>
         </ScrollView>
     </StackLayout>
